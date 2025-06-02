@@ -1,6 +1,9 @@
 # Este é um fluxo de trabalho básico para ajudar você a começar com ações
 
-
+on:
+  pull_request:
+    branches:
+      - main
 
 nome : CI
 
